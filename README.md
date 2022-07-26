@@ -1,4 +1,4 @@
-Instawork project by Pooja Vijayam
+Instawork project by Pooja Vijayan
 email: - poojanair388@gmail.com
 
 Developed in angular 11
