@@ -1,0 +1,41 @@
+.titleSpan{
+    margin-left: 1%;
+}
+.formSpan{
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+.team-row{
+    margin-left: 1%;
+}
+.form-group{
+    margin-bottom: 3%;
+}
+.title1{
+    font-size: larger;  
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    
+}
+.subTitle{
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.add-button{
+    color: blue;
+    font-size: 250%;
+    margin-left: 35%;
+    border: 1px solid grey;
+}
+.head-icon{
+    width: 50%;
+    margin-left: 28%;
+}
+.list-row{
+    padding: 4%;
+}
+.view-Page{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

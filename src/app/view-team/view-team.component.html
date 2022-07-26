@@ -1,0 +1,40 @@
+<div class="view-Page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10"></div>
+            <div class="col-sm-2">
+                <button (click)="addTeam('insertTeam')" type="button"
+                    class="btn btn-default add-button">+</button>
+            </div>
+        </div>
+        <div class="row addTitle">
+            <span class="titleSpan">
+                <h2 class="title1"><b>Team Members</b></h2>
+                <h6 class="subTitle">You have {{teamNo}} team members</h6>
+            </span>
+        </div>
+        <hr>
+        <div class="row team-row">
+            <div class="list-group" style="width: 96%;">
+                <a (click)="editTeam('updateTeam', i)" 
+                    class="list-group-item list-group-item-action" *ngFor="let member of team; let i = index">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="./assets/user.png" alt="user" class="head-icon">
+                        </div>
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-8 list-row">
+                            <div class="row">
+                                <h5 class="title1">{{member.firstName}}&nbsp;{{member.lastName}}&nbsp;&nbsp;<b
+                                        >({{member.role}})</b></h5>
+                            </div>
+                            <div class="row">
+                                <h5 class="subTitle">{{member.email}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

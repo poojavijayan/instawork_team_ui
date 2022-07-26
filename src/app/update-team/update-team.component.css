@@ -1,0 +1,39 @@
+.insert-team{
+    margin-top: 5%;
+}
+.title{
+    margin-left: 1%;
+}
+.formSpan{
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+.team-data{
+    margin-left: 1%;
+}
+.rdoGrp{
+    margin-bottom: 2%;
+    border-bottom: 1px solid grey;
+}
+.saveBtn{
+    margin-left: 93%;
+}
+.title1{
+    font-size: larger;  
+    font-weight: 600;
+    color:  grey;
+    
+}
+.title2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: larger;
+}
+.subTitle{
+    color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deleteButton{
+    border: 1px solid grey;
+}
